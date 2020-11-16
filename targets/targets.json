@@ -3189,6 +3189,20 @@
             "TRNG"
         ]
     },
+    "AGROMOTE": {
+        "inherits": [
+            "MCU_STM32L4"
+        ],
+        "public": false,
+        "c_lib": "small",
+        "extra_labels_add": [
+            "STM32L431xC"
+        ],
+        "macros_add": [
+            "STM32L431xx"
+        ],
+        "device_name": "STM32L431RC"
+    },
     "MCU_STM32L432xC": {
         "inherits": [
             "MCU_STM32L4"
